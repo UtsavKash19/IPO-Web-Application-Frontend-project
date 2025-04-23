@@ -1,0 +1,116 @@
+.manage-ipo-container {
+    padding: 20px;
+    background-color: #f9f9fc;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-btn {
+    background-color: #5c33ff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .ipo-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .ipo-table th,
+  .ipo-table td {
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .ipo-table th {
+    background-color: #f1f1f9;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  .status.ongoing {
+    background-color: #e1f7e3;
+    color: #2e7d32;
+    border: 1px solid #2e7d32;
+  }
+  
+  .status.comming {
+    background-color: #fff4e5;
+    color: #f9a825;
+    border: 1px solid #f9a825;
+  }
+  
+  .status.new-listed {
+    background-color: #fdecea;
+    color: #d32f2f;
+    border: 1px solid #d32f2f;
+  }
+  
+  .update-btn {
+    background-color: #6b46ff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .delete-icon,
+  .view-icon {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    background-color: #5c33ff;
+    color: white;
+    border-color: #5c33ff;
+  }
+  
